@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oviya P | Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <a href="#home" class="logo">Oviya P</a>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <p class="tag">WELCOME TO MY PORTFOLIO</p>
+            <h1>Hi, I'm <span>Oviya P</span></h1>
+            <h2>B.Tech IT Student</h2>
+            <p>
+                Passionate about programming, web development,
+                and creating technology-based solutions.
+            </p>
+            <a href="#projects" class="btn">Explore My Projects ↗</a>
+        </div>
+
+        <div class="hero-card">
+            <div class="profile-circle">OP</div>
+            <h3>Oviya P</h3>
+            <p>Information Technology</p>
+            <div class="mini-tags">
+                <span>Creative</span>
+                <span>Curious</span>
+                <span>Learning</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <p class="tag">GET TO KNOW ME</p>
+        <h2 class="section-title">About Me</h2>
+        <p class="about-text">
+            I am an enthusiastic Information Technology student at
+            Meenakshi Sundararajan Engineering College. I have a foundation
+            in C, C++, Java, and Python programming, along with knowledge
+            of DBMS and MongoDB. I enjoy learning new technologies and
+            applying my skills to solve real-world problems.
+        </p>
+    </section>
+
+    <section id="education">
+        <p class="tag">MY ACADEMIC JOURNEY</p>
+        <h2 class="section-title">Education</h2>
+
+        <div class="card-grid">
+            <div class="card">
+                <h3>B.Tech Information Technology</h3>
+                <p>Meenakshi Sundararajan Engineering College</p>
+                <span>Expected Graduation: 2028</span>
+            </div>
+
+            <div class="card">
+                <h3>Higher Secondary (HSC)</h3>
+                <p>Government Girls Higher Secondary School, Kadapakkam</p>
+                <span>2024 · 85%</span>
+            </div>
+
+            <div class="card">
+                <h3>SSLC</h3>
+                <p>Government Girls Higher Secondary School, Kadapakkam</p>
+                <span>2022 · 80%</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <p class="tag">WHAT I KNOW</p>
+        <h2 class="section-title">Technical Skills</h2>
+
+        <div class="skills-list">
+            <span>C Programming</span>
+            <span>C++ Programming</span>
+            <span>Java</span>
+            <span>Python</span>
+            <span>DBMS</span>
+            <span>MongoDB</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+        </div>
+    </section>
+
+    <section id="projects">
+        <p class="tag">WHAT I'VE WORKED ON</p>
+        <h2 class="section-title">My Projects</h2>
+
+        <div class="card-grid">
+            <div class="card project-card">
+                <span class="project-number">01</span>
+                <h3>BIOGOMOBILITY</h3>
+                <p>Implementation of biogas in electric vehicles.</p>
+            </div>
+
+            <div class="card project-card">
+                <span class="project-number">02</span>
+                <h3>Tripzaar</h3>
+                <p>An AI-powered travel planning and booking assistance concept.</p>
+            </div>
+
+            <div class="card project-card">
+                <span class="project-number">03</span>
+                <h3>Inventory Management</h3>
+                <p>A project focused on inventory management.</p>
+            </div>
+
+            <div class="card project-card">
+                <span class="project-number">04</span>
+                <h3>Context-Aware Student Search</h3>
+                <p>A student search system based on contextual information.</p>
+            </div>
+
+            <div class="card project-card">
+                <span class="project-number">05</span>
+                <h3>Event & College Fest Management</h3>
+                <p>A project focused on managing college events and festivals.</p>
+            </div>
+
+            <div class="card project-card">
+                <span class="project-number">06</span>
+                <h3>FIT DNA Ecommerce Engine</h3>
+                <p>An ecommerce project concept.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications">
+        <p class="tag">MY ACHIEVEMENTS</p>
+        <h2 class="section-title">Certifications & Activities</h2>
+
+        <div class="card-grid">
+            <div class="card">
+                <h3>NPTEL</h3>
+                <p>Python for Data Science</p>
+            </div>
+
+            <div class="card">
+                <h3>IBM</h3>
+                <p>Getting Started with Artificial Intelligence</p>
+            </div>
+
+            <div class="card">
+                <h3>HP LIFE</h3>
+                <p>Data Science Internship</p>
+            </div>
+
+            <div class="card">
+                <h3>Other Activities</h3>
+                <p>ForgeX and Innovrerse hackathons, Startup Summit 2026 participation, and an international conference journal paper.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <p class="tag">LET'S CONNECT</p>
+        <h2 class="section-title">Contact Me</h2>
+        <p class="about-text">
+            Have a project idea or want to connect? Send me a message!
+        </p>
+
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="btn">Send Message ↗</button>
+        </form>
+
+        <p id="response"></p>
+        <p class="email-link">
+            Email:
+            <a href="mailto:Oviyapanneerselvam12@gmail.com">
+                Oviyapanneerselvam12@gmail.com
+            </a>
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2026 Oviya P · Personal Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+```
